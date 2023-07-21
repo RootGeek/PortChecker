@@ -1,3 +1,4 @@
+
 # Deine gewünschte ASCII Art
 ascii_art = """
  ____    ___    ___   _____   ____  _____  _____  _  __
