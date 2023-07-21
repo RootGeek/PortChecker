@@ -33,7 +33,7 @@ def main():
             print(f"Der Port {port} auf {ip} ist geschlossen.")
 
         time.sleep(1)  # Warte 1 Sekunde
-        user_input = input("Drücke 'q' zum Beenden oder ENTER zum Fortfahren: ")
+        user_input = input("Drücke zum Beenden die Taste strg und c gleichzeitig: ")
         if user_input.lower() == 'q':
             break
 
