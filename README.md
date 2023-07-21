@@ -17,4 +17,4 @@ Das Skript ermöglicht es dem Benutzer, die Erreichbarkeit eines Netzwerkports a
 
 ## Beispiel mit der IP und dem Port von Nmap.
 
-![Server Seems Down](https://drive.google.com/uc?export=view&id=1TZJ_36QOu2I5MveDfuQeUfZsObSatrKC)
+![Server Seems Down](https://drive.google.com/uc?export=view&id=1mUQGzgVwNkSQSFTHtHYLqX5qBvO10N6F)
