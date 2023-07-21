@@ -14,3 +14,7 @@ Im Hauptteil des Skripts wird die `main()`-Funktion definiert, die die Benutzere
 Anschließend wird eine Endlosschleife verwendet, die den Port kontinuierlich in regelmäßigen Abständen überprüft. Nach jeder Überprüfung wird der Benutzer aufgefordert, "q" zu drücken, um den Test zu beenden, oder Enter, um den Test fortzusetzen. Der Test läuft solange, bis der Benutzer "q" eingibt.
 
 Das Skript ermöglicht es dem Benutzer, die Erreichbarkeit eines Netzwerkports auf einer angegebenen IP-Adresse kontinuierlich zu überwachen und zu testen.
+
+## Beispiel mit der IP und dem Port von Nmap.
+
+![Server Seems Down](https://drive.google.com/uc?export=view&id=1TZJ_36QOu2I5MveDfuQeUfZsObSatrKC)
