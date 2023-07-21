@@ -22,7 +22,7 @@ def is_port_open(ip, port):
 
 def main():
     print(ascii_art)
-    print("\nWillkommen zum Port-Test!")
+    print("\nWillkommen zum Port-Test von RootGeek!")
     ip = input("Gib die IP-Adresse ein: ")
     port = int(input("Gib den Port ein: "))
 
