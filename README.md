@@ -4,8 +4,7 @@
 Das Port-Test-Programm ist ein Python-Skript, das es dem Benutzer ermöglicht, die Erreichbarkeit eines bestimmten Netzwerkports auf einer angegebenen IP-Adresse zu überprüfen. Das Skript verwendet die Socket-Bibliothek, um eine Verbindung zum angegebenen Host und Port herzustellen und festzustellen, ob die Verbindung erfolgreich hergestellt werden konnte.
 
 ## Funktionsweise
-Das Skript beginnt mit der Definition einer ASCII Art, die dem Benutzer eine Willkommensnachricht mit dem Namen des Skripts vermittelt. Die ASCII Art ist ein stilisiertes Logo, das den Namen "Port-Test-Programm" darstellt.
-
+Das Skript beginnt mit der Definition einer ASCII Art, die dem Benutzer eine Willkommensnachricht mit dem Namen des Erstellers wieder gibt. 
 Der Benutzer wird dann aufgefordert, die IP-Adresse und den Port einzugeben, den er überprüfen möchte. Dazu verwendet das Skript die `input()`-Funktion, um die Benutzereingaben abzurufen.
 
 Anschließend wird eine `is_port_open(ip, port)` Funktion definiert, die versucht, eine Verbindung zum angegebenen Host und Port herzustellen. Die Funktion verwendet die `socket`-Bibliothek und den `socket.AF_INET` Adressfamilientyp und den `socket.SOCK_STREAM` Sockettyp, um eine TCP-Verbindung herzustellen. Mit `socket.settimeout(1)` wird eine Zeitüberschreitung von 1 Sekunde festgelegt, um lange Wartezeiten zu verhindern. Die Funktion gibt `True` zurück, wenn die Verbindung erfolgreich hergestellt wurde (der Port ist geöffnet) und `False`, wenn die Verbindung fehlgeschlagen ist (der Port ist geschlossen).
