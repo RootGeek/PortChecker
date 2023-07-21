@@ -1,4 +1,4 @@
-# Port-Test-Programm - Eine ausführliche Beschreibung
+# Port Test Programm - Eine ausführliche Beschreibung
 
 ## Einführung
 Das Port-Test-Programm ist ein Python-Skript, das es dem Benutzer ermöglicht, die Erreichbarkeit eines bestimmten Netzwerkports auf einer angegebenen IP-Adresse zu überprüfen. Das Skript verwendet die Socket-Bibliothek, um eine Verbindung zum angegebenen Host und Port herzustellen und festzustellen, ob die Verbindung erfolgreich hergestellt werden konnte.
